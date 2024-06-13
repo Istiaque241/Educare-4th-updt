@@ -1,0 +1,111 @@
+
+.dialog-wrapper {
+    display: none !important;
+}
+
+.wrap,
+#main {
+    height: 100vh;
+    margin: 0 !important;
+}
+
+iframe {
+    display: none;
+}
+
+
+html,
+body {
+    height: 100%;
+}
+
+.page-preview {
+    border-radius: 0;
+    height: 100%;
+}
+
+.page-preview-header {
+    background: #f2f2f2;
+    border: none;
+    height: 70px;
+    position: relative;
+    text-align: center;
+}
+
+.page-preview-header > a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 4px;
+}
+
+.page-preview-header > a:hover {
+    background: #e2f0fc;
+    text-decoration: none;
+}
+
+.page-preview-header > a.active {
+    background: #c9e4f9;
+}
+
+.page-preview-header > .close {
+    float: right;
+    margin-right: 10px;
+}
+
+.page-preview-body {
+    height: calc(100% - 70px);
+    overflow: hidden;
+    text-align: center;
+}
+
+.page-preview-body iframe {
+    border: none;
+    display: inline-block;
+    height: 100%;
+}
+#jobs{
+    background: var(--color-bg1);
+    box-shadow: inset 0 0 3rem rgba(82, 74, 74, 0.5);
+}
+
+.tuition-details{
+    box-shadow: 0 2px 70px 0 rgba(58, 107, 142, 0.18);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.tuition_container{
+    display: grid;
+    grid: 3rem;
+}
+
+.job-update{
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.job-update .uil{
+    margin-top: 5px;
+    margin-right: 10px;
+    color: #77d1b1;
+}
+.apply-btn{
+    height: 40px;
+    background-image: linear-gradient(to right, #896def, #7cc9e0);
+    padding: 7px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.apply-btn .btn-primary{
+    padding: 1 30px;
+    float: right;
+    
+}
+
+.page-link{
+    height: 25px;
+    width: 25px;
+    list-style: none;
+    display: inline-block;
+
+}
